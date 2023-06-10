@@ -11,6 +11,6 @@
 	function findSize() {
         var width1 = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
         var height1 = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-        var size = document.getElementById("id1");
+        var size = document.getElementById("sizeInfo");
         size.innerHTML = "<h1>Width: " + width1 + " and Height: " + height1 + "</h1>";
 	}
